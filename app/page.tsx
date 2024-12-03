@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-4xl w-full space-y-8 text-center">
         <div className="relative w-40 h-40 mx-auto mb-8">
           <Image
-            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+            src="ADITHYAN B ASHOK copy.JPG"
             alt="Your Name"
             fill
             className="rounded-full object-cover"
