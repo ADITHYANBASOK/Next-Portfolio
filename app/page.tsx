@@ -12,7 +12,7 @@ export default function Home() {
             src="ADITHYAN B ASHOK copy.JPG"
             alt="Your Name"
             fill
-            className="rounded-full object-cover"
+            className="rounded-full "
           />
         </div>
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
@@ -20,7 +20,10 @@ export default function Home() {
           <span className="block ">ADITHYAN B ASOK</span>
         </h1>
         <p className="mt-3 text-base text-muted-foreground sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl">
-          Full Stack Developer | MERN | REACT | NODE | EXPRESS
+          FULL STACK DEVELOPER
+        </p>
+        <p className="mt-3 text-base text-muted-foreground sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl">
+           MERN | REACT | NODE | EXPRESS | PYTHON | HTML | CSS | JAVASCRIPT | DJANGO
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center">
           <div className="rounded-md shadow">
@@ -40,18 +43,18 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-8 flex justify-center space-x-6">
-          <Link href="https://github.com" target="_blank" rel="noreferrer">
+          <Link href="https://github.com/ADITHYANBASOK" target="_blank" rel="noreferrer">
             <Github className="h-6 w-6" />
             <span className="sr-only">GitHub</span>
           </Link>
-          <Link href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <Link href="https://www.linkedin.com/in/adithyan-b-asok-2660b9221/" target="_blank" rel="noreferrer">
             <Linkedin className="h-6 w-6" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link href="https://twitter.com" target="_blank" rel="noreferrer">
+          {/* <Link href="https://twitter.com" target="_blank" rel="noreferrer">
             <Twitter className="h-6 w-6" />
             <span className="sr-only">Twitter</span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

@@ -19,14 +19,14 @@ const Footer = () => {
             <Github className="h-5 w-5" />
             <span className="sr-only">GitHub</span>
           </Link>
-          <Link href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <Link href="https://www.linkedin.com/in/adithyan-b-asok-2660b9221/" target="_blank" rel="noreferrer">
             <Linkedin className="h-5 w-5" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link href="https://twitter.com" target="_blank" rel="noreferrer">
+          {/* <Link href="https://twitter.com" target="_blank" rel="noreferrer">
             <Twitter className="h-5 w-5" />
             <span className="sr-only">Twitter</span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>

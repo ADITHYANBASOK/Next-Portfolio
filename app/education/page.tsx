@@ -6,20 +6,23 @@ const educationData = [
   {
     level: "Master of Science (MSc)",
     field: "Computer Science",
-    institution: "Department of Computer Science Calicut University",
-    year: "2021 - 2023"
+    institution: "Department of Computer Science Calicut University , Thenhipalam",
+    year: "2021 - 2023",
+    gpa: "7.5/10"
   },
   {
     level: "Bachelor of Computer Science (BCA)",
     field: "Computer Application",
     institution: "Sree Narayana College , Vatakara",
-    year: "2018 - 2021"
+    year: "2018 - 2021",
+    gpa: "3.41/5.0"
   },
   {
     level: "+2 (Higher Secondary)",
     field: "Science",
     institution: "G.H.S.S velliyode",
-    year: "2016 - 2018"
+    year: "2016 - 2018",
+    // gpa: "3.7/4.0"
   }
 ]
 
@@ -31,30 +34,23 @@ const internshipData = [
     description: "Worked on developing and optimizing backend services using Node.js and MongoDB."
   },
   {
-    role: "Frontend Developer Intern",
-    company: "Web Agency B",
-    duration: "Winter 2018",
-    description: "Assisted in building responsive web applications using React and Redux."
+    role: "React Native Intern",
+    company: "Tutedude",
+    duration: "09-24 to 12-24",
+    description: "Collaborated with the team to develop and debug cross-platform mobile applications, ensuring seamless user experiences."
   }
 ]
 
 const certifications = [
   {
-    name: "AWS Certified Developer - Associate",
-    url: "https://aws.amazon.com/certification/certified-developer-associate/"
+    name: "React Native Developer",
+    url: "https://drive.google.com/file/d/1wLv7vPGuG3T3_JUBah0KfcZ3r3Jb3vi4/view?usp=sharing"
   },
   {
-    name: "Google Cloud Professional Cloud Architect",
-    url: "https://cloud.google.com/certification/cloud-architect"
+    name: "React Developer",
+    url: "https://drive.google.com/file/d/1O4thqW76Jn7hdF85B2KkuVeJUwb9y6sr/view?usp=sharing"
   },
-  {
-    name: "Microsoft Certified: Azure Developer Associate",
-    url: "https://learn.microsoft.com/en-us/certifications/azure-developer/"
-  },
-  {
-    name: "Certified Kubernetes Administrator (CKA)",
-    url: "https://www.cncf.io/certification/cka/"
-  }
+  
 ]
 
 export default function EducationExperience() {
@@ -73,6 +69,10 @@ export default function EducationExperience() {
               <CardContent>
                 <p className="text-muted-foreground">{edu.institution}</p>
                 <p className="text-sm text-muted-foreground">{edu.year}</p>
+                {edu.gpa?
+                <p className="text-sm text-muted-foreground">GPA: {edu.gpa}</p>
+              :<p className="text-sm text-muted-foreground">Percentage: 80%</p>}
+
               </CardContent>
             </Card>
           ))}

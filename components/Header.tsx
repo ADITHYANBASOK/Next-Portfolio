@@ -15,7 +15,7 @@ const Header = () => {
     { label: 'About', path: '/about' },
     { label: 'Education & Experience', path: '/education' },
     { label: 'Projects', path: '/projects' },
-    { label: 'Blog', path: '/blog' },
+    // { label: 'Blog', path: '/blog' },
     { label: 'Contact', path: '/contact' },
   ]
 
