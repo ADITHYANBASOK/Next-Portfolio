@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Github, Linkedin, Twitter } from 'lucide-react'
-
+import { Github, Linkedin, Twitter , Mail , Code } from 'lucide-react'
+import { LiaHackerrank } from "react-icons/lia";
 const Footer = () => {
   return (
     <footer className="border-t">
@@ -23,10 +23,14 @@ const Footer = () => {
             <Linkedin className="h-5 w-5" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          {/* <Link href="https://twitter.com" target="_blank" rel="noreferrer">
-            <Twitter className="h-5 w-5" />
-            <span className="sr-only">Twitter</span>
-          </Link> */}
+          <Link href="mailto:adithyanbasok@gmail.com" target="_blank" rel="noreferrer">
+            <Mail className="h-5 w-5" />
+            <span className="sr-only">Mail</span>
+          </Link>
+          <Link href="https://www.hackerrank.com/profile/adithyanbasok/" target="_blank" rel="noreferrer">
+            <LiaHackerrank className="h-6 w-6" />
+            <span className="sr-only">HackerRank</span>
+          </Link>
         </div>
       </div>
     </footer>

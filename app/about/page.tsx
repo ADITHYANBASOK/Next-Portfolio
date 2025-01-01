@@ -68,7 +68,7 @@ export default function About() {
             <Download className="mr-2 h-4 w-4" /> Download Resume
           </Button> */}
           <Button asChild>
-            <a href="/resume.pdf" download>
+            <a href="/CvMain1.pdf" download>
               <Download className="mr-2 h-4 w-4" /> Download Resume
             </a>
           </Button>

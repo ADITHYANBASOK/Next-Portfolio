@@ -43,11 +43,11 @@ const internshipData = [
 
 const certifications = [
   {
-    name: "React Native Developer",
+    name: "React Native Developer - Issued by Tutedude 01/12/2024",
     url: "https://drive.google.com/file/d/1wLv7vPGuG3T3_JUBah0KfcZ3r3Jb3vi4/view?usp=sharing"
   },
   {
-    name: "React Developer",
+    name: "React Developer - Issued by AWS community builders",
     url: "https://drive.google.com/file/d/1O4thqW76Jn7hdF85B2KkuVeJUwb9y6sr/view?usp=sharing"
   },
   

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail, Twitter } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -50,6 +50,10 @@ export default function Home() {
           <Link href="https://www.linkedin.com/in/adithyan-b-asok-2660b9221/" target="_blank" rel="noreferrer">
             <Linkedin className="h-6 w-6" />
             <span className="sr-only">LinkedIn</span>
+          </Link>
+          <Link href="mailto:adithyanbasok@gmail.com" target="_blank" rel="noreferrer">
+            <Mail className="h-6 w-6" />
+            <span className="sr-only">Mail</span>
           </Link>
           {/* <Link href="https://twitter.com" target="_blank" rel="noreferrer">
             <Twitter className="h-6 w-6" />
